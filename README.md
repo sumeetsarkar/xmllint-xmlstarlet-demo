@@ -21,8 +21,11 @@ Mac OS X (Yosemite) installed by default<br/>
 3. --timing
 
 ### xmlstarlet usage demos in this project
-1. -ed -d
-2. -ed -u
+1. -el
+2. -el -a
+3. -el -v
+4. -ed -d
+5. -ed -u
 
 ### Running the demo
 
