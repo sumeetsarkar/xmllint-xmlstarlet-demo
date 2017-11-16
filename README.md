@@ -10,6 +10,8 @@ Mac OS X (Yosemite), installed by default
 
 ### xmllint usage demos in this project
 1. --xpath
+2. --repeat
+3. --timing
 
 ### Running the demo
 
