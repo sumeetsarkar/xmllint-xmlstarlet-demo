@@ -2,17 +2,9 @@
 
 function main() {
   # check if file is food.xml
-  if [ $1 == 'data/food.xml' ]; then
-    processBreakfastMenu $1
-  # check if file is books.xml
-  elif [ $1 == 'data/books.xml' ]; then
+  if [ $1 == 'data/books.xml' ]; then
     processBookstore $1
   fi
-}
-
-function processBreakfastMenu() {
-  echo $'usage of --path /breakfast_menu/food[1]\n'
-  xmllint --xpath '/breakfast_menu/food[1]' $1
 }
 
 function processBookstore() {
