@@ -5,6 +5,12 @@ function main() {
   if [ $1 == 'data/books.xml' ]; then
     processBookstore $1
   fi
+  otherUtils
+}
+
+function otherUtils() {
+  echo $'\n\nList directory as xml'
+  xmlstarlet ls
 }
 
 function processBookstore() {
